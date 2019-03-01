@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">	
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.js"></script>
+		<script type="text/javascript" src="boards.js"></script>
+		<script type="text/javascript" src="index.js"></script>
+		<title>Boards</title>
+	</head>
+	<body>
+		<div style="padding-top:20px">
+		</div>
+		<div style="padding-left:10px">
+			<form id="boards_form">
+				<div class="row">
+					<div class="col-md-2">
+						<label for="xPosition">xPosition:</label>
+						<input type="range" min="1" max="1280" value="640" id="xPosition"/>
+					</div>
+					<div class="col-md-2">
+						<label for="yPosition">yPosition:</label>
+						<input type="range" min="1" max="960" value="480" id="yPosition"/>
+					</div>
+					<div class="col-md-4">
+						<label>Change these to alter the sketch's x and y coordinates</label>
+					</div>
+				</div>
+				<hr>
+				<div class="row">
+					<div class="col-md-2">
+						<label for="rectX">rectX:</label>
+						<input type="range" min="1" max="200" value="100" id="rectX"/>
+					</div>
+					<div class="col-md-2">
+						<label for="rectY">rectY:</label>
+						<input type="range" min="1" max="400" value="200" id="rectY"/>
+					</div>
+					<div class="col-md-4">
+						<label>Change this to alter size of the rectangles</label>
+					</div>
+				</div>
+				<hr>
+				<div class="row">
+					<div class="col-md-2">
+						<label for="depth">depth:</label>
+						<input type="range" min="1" max="8" value="4" id="depth"/>
+					</div>
+					<div class="col-md-4">
+						<label>Change this to alter the size of the border around the rectangles</label>
+					</div>
+				</div>
+				<hr>
+				<div class="row">
+					<div class="col-md-2">
+						<label for="colour">colour:</label>
+						<input type="color" id="colour"/>
+					</div>
+					<div class="col-md-4">
+						<label>Select a colour to alter the colour of the boards</label>
+					</div>
+				</div>
+			</form>
+			<hr>
+		</div>
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+	</body>
+</html>
